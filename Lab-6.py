@@ -1,3 +1,4 @@
+# Anthony Mezzatesta
 def encode(password):
 	new = []
 	for i in range(len(password)):
