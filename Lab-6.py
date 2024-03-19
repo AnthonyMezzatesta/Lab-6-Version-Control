@@ -5,6 +5,15 @@ def encode(password):
 		new.append(str(int(password[i]) + 3))
 	return "".join(new)
 
+def decode(password):
+	decodedPass = ''
+
+	# iterate through each element in the string
+	for number in password:
+		# reduce each number by 3 :)
+		decodedPass += str(int(number) - 3)
+	return decodedPass
+
 
 def main():
 	while True:
