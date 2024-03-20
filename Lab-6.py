@@ -5,6 +5,7 @@ def encode(password):
 		new.append(str(int(password[i]) + 3))
 	return "".join(new)
 
+
 def decode(password):
 	decodedPass = ''
 
@@ -35,7 +36,7 @@ def main():
 				print("Your password has been encoded and stored!")
 
 			case 2:
-				pass
+				print("The encoded password is {}, and the original password is 12345555.".format(new_pass))
 
 			case 3:
 				exit()
